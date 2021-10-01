@@ -1,5 +1,7 @@
 #!/usr/bin/env python
-
+import os
+import time
+import sys
 def supa_encryption(s1, s2):
     res = [chr(0)]*24
     for i in range(len(res)):
